@@ -1,0 +1,9 @@
+.slider{
+    width: 1500px;
+    margin: 0 auto;
+     -webkit-mask-image: linear-gradient(to top, transparent 25%, black 75%);
+     mask-image: linear-gradient(to top, transparent 25%, black 75%);
+      
+    z-index: -4;
+
+}  

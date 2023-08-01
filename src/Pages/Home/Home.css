@@ -1,0 +1,36 @@
+.home{
+    margin: 0 auto;
+    background-color: rgb(227, 230, 230);
+    position: relative;
+
+
+}
+
+.home__row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    z-index:1;
+    margin: 0 5px;   
+    position: relative;
+    top: -480px;
+  
+}
+
+.Home__Header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.amazon__banner img {
+width: 100%;
+height: 380px;
+position: absolute;
+bottom: 750px;
+object-fit: cover;
+padding: 0 30px;
+box-sizing: border-box;
+}
+

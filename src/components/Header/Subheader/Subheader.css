@@ -1,0 +1,15 @@
+.header_sub{
+    background-color: rgb(35, 47, 62);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    word-spacing: 15px;
+    height: 40px;
+    cursor: pointer;
+    
+    
+ 
+    
+
+}

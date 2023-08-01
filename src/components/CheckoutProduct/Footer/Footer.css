@@ -1,0 +1,102 @@
+.Footer__Main{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    background-color: rgb(35, 47, 62);
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(58, 69, 83);
+    border-top: 30px solid rgb(72, 88, 106)
+    
+    
+    
+    
+}
+
+   
+
+
+.Footer__sub :hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.Footer__sub h3 :hover{
+    text-decoration: none;
+}
+
+.Footer__sub  h4{
+    color: rgb(215, 213, 216);
+    font-size: 14px;
+
+}
+.Footer__sub  h3{
+    color: white;
+
+
+}
+
+.Footer--little__main{
+    background-color: rgb(35, 47, 62);
+}
+
+
+.Footer__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(35, 47, 62);
+}
+
+.Footer__logo img{
+    width: 100px;
+    margin: 0 20px;
+    margin-top: 10px;
+    object-fit: contain;
+    cursor: pointer;
+   
+}
+
+.Footer__country{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(215, 213, 216);
+    word-spacing: 8px;
+    font-size: 19px;
+}
+.private__notes:hover{ 
+    text-decoration:underline;
+    cursor: pointer;
+
+
+}
+
+.private__notes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(19, 26, 34);
+    color: rgb(215, 213, 216);
+    cursor: pointer;
+    padding-top: 50px;
+    font-size: 12px;
+    padding-bottom: 50px;
+
+
+
+}
+
+.final__subfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    background-color: rgb(19, 26, 34);
+    color: rgb(215, 213, 216);
+    cursor: pointer;
+
+}
+
